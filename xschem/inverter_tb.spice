@@ -5,7 +5,7 @@ x1 net1 out in GND inverter
 V1 in GND PWL(0 0 20n 0 900n 1.8)
 V2 net1 GND 1.8
 **** begin user architecture code
-
+.param mc_mm_switch=0
 .lib /usr/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 
