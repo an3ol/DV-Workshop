@@ -11,7 +11,6 @@ set ::env(QUIT_ON_ILLEGAL_OVERLAPS) 0
 set ::env(QUIT_ON_LVS_ERROR) 0
 set ::env(QUIT_ON_MAGIC_DRC) 0
 set ::env(QUIT_ON_TR_DRC) 0
-set ::env(DIODE_INSERTION_STRATEGY) 1
 
 set ::env(CLOCK_NET) $::env(CLOCK_PORT)
 set ::env(FP_CORE_UTIL) 41
